@@ -1,6 +1,11 @@
 grails.project.class.dir = "target/classes"
 grails.project.test.class.dir = "target/test-classes"
 grails.project.test.reports.dir = "target/test-reports"
+grails.project.repos.myRepo.url = "http://localhost:8081/nexus/content/repositories/localplugins"
+grails.project.repos.myRepo.type = "maven"
+grails.project.repos.default = "myRepo"
+grails.project.repos.myRepo.username = "admin"
+grails.project.repos.myRepo.password = "admin123"
 
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
@@ -13,7 +18,7 @@ grails.project.dependency.resolution = {
         grailsCentral()
         // uncomment the below to enable remote dependency resolution
         // from public Maven repositories
-        //mavenLocal()
+        mavenLocal()
         //mavenCentral()
         //mavenRepo "http://snapshots.repository.codehaus.org"
         //mavenRepo "http://repository.codehaus.org"
@@ -28,7 +33,7 @@ grails.project.dependency.resolution = {
 
     plugins {
         build(":tomcat:$grailsVersion",
-              ":release:2.0.3",
+              ":release:2.0.4",
               ":rest-client-builder:1.0.2") {
             export = false
         }
