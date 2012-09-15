@@ -40,5 +40,7 @@ grails.project.dependency.resolution = {
             export = false
         }
         compile ":codenarc:0.17"
+        test ":auto-test:1.0.1"
+        compile ":build-test-data:2.0.3"
     }
 }
