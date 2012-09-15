@@ -7,6 +7,8 @@ grails.project.repos.default = "myRepo"
 grails.project.repos.myRepo.username = "admin"
 grails.project.repos.myRepo.password = "admin123"
 
+grails.server.port.http = 8082
+
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
     inherits("global") {
@@ -37,5 +39,6 @@ grails.project.dependency.resolution = {
               ":rest-client-builder:1.0.2") {
             export = false
         }
+        compile ":codenarc:0.17"
     }
 }

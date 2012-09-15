@@ -1,4 +1,4 @@
-<plugin name='eappcore' version='0.1.1' grailsVersion='2.1 &gt; *'>
+<plugin name='eappcore' version='0.1.3' grailsVersion='2.1 &gt; *'>
   <author>Your name</author>
   <title>Eappcore Plugin</title>
   <description>Brief summary/description of the plugin.
@@ -20,7 +20,11 @@
     <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
   </repositories>
   <dependencies />
-  <plugins />
+  <plugins>
+    <compile>
+      <plugin group='org.grails.plugins' name='codenarc' version='0.17' />
+    </compile>
+  </plugins>
   <runtimePluginRequirements />
   <behavior />
 </plugin>
