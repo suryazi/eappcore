@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="falblawi" id="0" name="JWSCVesselTests" package="com.blagha" tests="1" time="0.94" timestamp="2012-09-15T12:10:43">
+  <testsuite errors="0" failures="0" hostname="falblawi" id="0" name="JWSCVesselTests" package="com.blagha" tests="1" time="4.401" timestamp="2012-09-17T08:21:47">
       <properties />
 
-      <testcase classname="com.blagha.JWSCVesselTests" name="testSave" time="0.938" />
+      <testcase classname="com.blagha.JWSCVesselTests" name="testSave" time="4.364" />
 
       <system-out><![CDATA[--Output from testSave--
 ]]></system-out>

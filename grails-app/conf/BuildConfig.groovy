@@ -39,6 +39,7 @@ grails.project.dependency.resolution = {
               ":rest-client-builder:1.0.2") {
             export = false
         }
+        runtime ":hibernate:$grailsVersion"
         compile ":codenarc:0.17"
         test ":auto-test:1.0.1"
         compile ":build-test-data:2.0.3"
