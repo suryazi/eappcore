@@ -1,0 +1,10 @@
+Testsuite: com.blagha.JWSCSparesTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.55 sec
+------------- Standard Output ---------------
+--Output from testSomething--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testSomething--
+------------- ---------------- ---------------
+
+Testcase: testSomething took 0.364 sec

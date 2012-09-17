@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="falblawi" name="com.blagha.JWSCEquipTests" tests="1" time="0.776" timestamp="2012-09-17T14:11:21">
+  <properties />
+  <testcase classname="com.blagha.JWSCEquipTests" name="testSomething" time="0.244" />
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>

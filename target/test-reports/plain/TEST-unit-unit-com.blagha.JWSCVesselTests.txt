@@ -1,5 +1,5 @@
 Testsuite: com.blagha.JWSCVesselTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 4.401 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 2.821 sec
 ------------- Standard Output ---------------
 --Output from testSave--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 4.401 sec
 --Output from testSave--
 ------------- ---------------- ---------------
 
-Testcase: testSave took 4.364 sec
+Testcase: testSave took 2.819 sec
