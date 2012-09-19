@@ -1,10 +1,10 @@
 Testsuite: com.blagha.JWSCMfgTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.481 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 3.765 sec
 ------------- Standard Output ---------------
---Output from testSomething--
+--Output from testMfgSave--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
---Output from testSomething--
+--Output from testMfgSave--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.302 sec
+Testcase: testMfgSave took 3.569 sec

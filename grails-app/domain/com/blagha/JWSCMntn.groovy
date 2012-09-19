@@ -3,6 +3,8 @@ package com.blagha
 class JWSCMntn {
 
     String maintenance
+    Date dateCreated
+    Date lastUpdated
 
     static constraints = {
         

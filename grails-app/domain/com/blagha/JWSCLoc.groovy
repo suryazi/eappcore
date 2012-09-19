@@ -3,6 +3,8 @@ package com.blagha
 class JWSCLoc {
 
     String loc
+    Date dateCreated
+    Date lastUpdated
 
     static constraints = {
         loc (unique: true, blank: false)

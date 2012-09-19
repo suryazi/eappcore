@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="falblawi" name="com.blagha.JWSCMntnTests" tests="1" time="1.006" timestamp="2012-09-19T13:57:18">
+<testsuite errors="0" failures="0" hostname="falblawi" name="com.blagha.JWSCMntnTests" tests="1" time="0.315" timestamp="2012-09-19T14:09:26">
   <properties />
-  <testcase classname="com.blagha.JWSCMntnTests" name="testSomething" time="0.802" />
+  <testcase classname="com.blagha.JWSCMntnTests" name="testSomething" time="0.312" />
   <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
   <system-err><![CDATA[--Output from testSomething--
