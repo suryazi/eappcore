@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="falblawi" name="com.blagha.JWSCLocTests" tests="1" time="0.899" timestamp="2012-09-19T12:21:41">
+<testsuite errors="0" failures="0" hostname="falblawi" name="com.blagha.JWSCLocTests" tests="1" time="0.573" timestamp="2012-09-19T13:57:17">
   <properties />
-  <testcase classname="com.blagha.JWSCLocTests" name="testSomething" time="0.737" />
-  <system-out><![CDATA[--Output from testSomething--
+  <testcase classname="com.blagha.JWSCLocTests" name="testLocSave" time="0.386" />
+  <system-out><![CDATA[--Output from testLocSave--
 ]]></system-out>
-  <system-err><![CDATA[--Output from testSomething--
+  <system-err><![CDATA[--Output from testLocSave--
 ]]></system-err>
 </testsuite>

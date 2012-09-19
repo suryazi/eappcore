@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="falblawi" id="0" name="JWSCEquipTests" package="com.blagha" tests="1" time="0.974" timestamp="2012-09-19T12:21:40">
+  <testsuite errors="0" failures="0" hostname="falblawi" id="0" name="JWSCEquipTests" package="com.blagha" tests="1" time="3.836" timestamp="2012-09-19T13:57:13">
       <properties />
 
-      <testcase classname="com.blagha.JWSCEquipTests" name="testEquipSave" time="0.807" />
+      <testcase classname="com.blagha.JWSCEquipTests" name="testEquipSave" time="3.616" />
 
       <system-out><![CDATA[--Output from testEquipSave--
 ]]></system-out>
@@ -12,10 +12,22 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="falblawi" id="1" name="JWSCLocTests" package="com.blagha" tests="1" time="0.899" timestamp="2012-09-19T12:21:41">
+  <testsuite errors="0" failures="0" hostname="falblawi" id="1" name="JWSCLocTests" package="com.blagha" tests="1" time="0.573" timestamp="2012-09-19T13:57:17">
       <properties />
 
-      <testcase classname="com.blagha.JWSCLocTests" name="testSomething" time="0.737" />
+      <testcase classname="com.blagha.JWSCLocTests" name="testLocSave" time="0.386" />
+
+      <system-out><![CDATA[--Output from testLocSave--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testLocSave--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="falblawi" id="2" name="JWSCMfgTests" package="com.blagha" tests="1" time="0.481" timestamp="2012-09-19T13:57:17">
+      <properties />
+
+      <testcase classname="com.blagha.JWSCMfgTests" name="testSomething" time="0.302" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -24,10 +36,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="falblawi" id="2" name="JWSCMfgTests" package="com.blagha" tests="1" time="0.881" timestamp="2012-09-19T12:21:41">
+  <testsuite errors="0" failures="0" hostname="falblawi" id="3" name="JWSCMntnTests" package="com.blagha" tests="1" time="1.006" timestamp="2012-09-19T13:57:18">
       <properties />
 
-      <testcase classname="com.blagha.JWSCMfgTests" name="testSomething" time="0.711" />
+      <testcase classname="com.blagha.JWSCMntnTests" name="testSomething" time="0.802" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -36,10 +48,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="falblawi" id="3" name="JWSCMntnTests" package="com.blagha" tests="1" time="0.863" timestamp="2012-09-19T12:21:42">
+  <testsuite errors="0" failures="0" hostname="falblawi" id="4" name="JWSCSparesTests" package="com.blagha" tests="1" time="0.58" timestamp="2012-09-19T13:57:19">
       <properties />
 
-      <testcase classname="com.blagha.JWSCMntnTests" name="testSomething" time="0.701" />
+      <testcase classname="com.blagha.JWSCSparesTests" name="testSomething" time="0.369" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -48,10 +60,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="falblawi" id="4" name="JWSCSparesTests" package="com.blagha" tests="1" time="1.001" timestamp="2012-09-19T12:21:43">
+  <testsuite errors="0" failures="0" hostname="falblawi" id="5" name="JWSCTransTests" package="com.blagha" tests="1" time="0.405" timestamp="2012-09-19T13:57:20">
       <properties />
 
-      <testcase classname="com.blagha.JWSCSparesTests" name="testSomething" time="0.822" />
+      <testcase classname="com.blagha.JWSCTransTests" name="testSomething" time="0.23" />
 
       <system-out><![CDATA[--Output from testSomething--
 ]]></system-out>
@@ -60,22 +72,10 @@
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="falblawi" id="5" name="JWSCTransTests" package="com.blagha" tests="1" time="0.859" timestamp="2012-09-19T12:21:44">
+  <testsuite errors="0" failures="0" hostname="falblawi" id="6" name="JWSCVesselTests" package="com.blagha" tests="1" time="0.325" timestamp="2012-09-19T13:57:20">
       <properties />
 
-      <testcase classname="com.blagha.JWSCTransTests" name="testSomething" time="0.684" />
-
-      <system-out><![CDATA[--Output from testSomething--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from testSomething--
-]]></system-err>
-
-  </testsuite>
-  <testsuite errors="0" failures="0" hostname="falblawi" id="6" name="JWSCVesselTests" package="com.blagha" tests="1" time="0.77" timestamp="2012-09-19T12:21:45">
-      <properties />
-
-      <testcase classname="com.blagha.JWSCVesselTests" name="testSave" time="0.77" />
+      <testcase classname="com.blagha.JWSCVesselTests" name="testSave" time="0.321" />
 
       <system-out><![CDATA[--Output from testSave--
 ]]></system-out>

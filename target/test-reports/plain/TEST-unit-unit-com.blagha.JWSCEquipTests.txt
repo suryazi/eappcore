@@ -1,5 +1,5 @@
 Testsuite: com.blagha.JWSCEquipTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.974 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 3.836 sec
 ------------- Standard Output ---------------
 --Output from testEquipSave--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.974 sec
 --Output from testEquipSave--
 ------------- ---------------- ---------------
 
-Testcase: testEquipSave took 0.807 sec
+Testcase: testEquipSave took 3.616 sec
