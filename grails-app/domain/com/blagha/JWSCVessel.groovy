@@ -2,16 +2,16 @@ package com.blagha
 
 class JWSCVessel {
 
-    String vessel
+    String name
 
     static constraints = {
         
-        vessel (unique: true, blank: false)
+        name (unique: true, blank: false)
     }
     
     static hasMany = [spares : JWSCSpares]
     
     static mapping ={
-        spares sort: 'vessel'
+        spares sort: 'name'
     }
 }

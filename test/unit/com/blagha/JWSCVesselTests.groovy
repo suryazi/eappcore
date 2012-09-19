@@ -14,15 +14,15 @@ import grails.buildtestdata.mixin.Build
 class JWSCVesselTests {
 
     void testSave() {
-       def vessel = new JWSCVessel(vessel:'Jizan')
+       def vessel = new JWSCVessel(name:'Jizan')
        assertNotNull vessel.save()
        assertNotNull vessel.id
        def foundVessel = JWSCVessel.get(vessel.id)
-       assertEquals 'Jizan', foundVessel.vessel
+       assertEquals 'Jizan', foundVessel.name
        
         JWSCVessel ves = JWSCVessel.build()
         def foundves=JWSCVessel.get(ves.id)
         assertNotNull ves.id
-        assertNotNull ves.vessel
+        assertNotNull ves.name
     }
 }
