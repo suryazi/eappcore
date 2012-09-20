@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="falblawi" name="com.blagha.JWSCMntnTests" tests="1" time="1.869" timestamp="2012-09-20T10:00:39">
-  <properties />
-  <testcase classname="com.blagha.JWSCMntnTests" name="testMntnSave" time="1.838" />
-  <system-out><![CDATA[--Output from testMntnSave--
-]]></system-out>
-  <system-err><![CDATA[--Output from testMntnSave--
-]]></system-err>
-</testsuite>
