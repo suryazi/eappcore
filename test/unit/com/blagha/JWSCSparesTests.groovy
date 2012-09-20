@@ -25,4 +25,5 @@ class JWSCSparesTests {
         assertNotNull spares.dateCreated
         assertNotNull spares.lastUpdated
     }
+    
 }
