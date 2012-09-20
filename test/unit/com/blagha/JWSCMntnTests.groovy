@@ -16,7 +16,6 @@ class JWSCMntnTests {
 
     void testMntnSave() {
         JWSCMntn mntn = JWSCMntn.build()
-        def foundmntn=JWSCMntn.get(mntn.id)
         assertNotNull mntn.id
         assertNotNull mntn.maintenance
         assertNotNull mntn.dateCreated

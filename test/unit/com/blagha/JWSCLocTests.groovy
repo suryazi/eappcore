@@ -16,8 +16,9 @@ class JWSCLocTests {
 
     void testLocSave() {
         JWSCLoc loc = JWSCLoc.build()
-        def foundloc=JWSCLoc.get(loc.id)
         assertNotNull loc.id
         assertNotNull loc.loc
+        assertNotNull loc.lastUpdated
+        assertNotNull loc.dateCreated
     }
 }

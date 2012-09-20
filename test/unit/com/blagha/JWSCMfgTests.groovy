@@ -16,8 +16,9 @@ class JWSCMfgTests {
 
     void testMfgSave() {
         JWSCMfg mfg = JWSCMfg.build()
-        def foundmfg=JWSCMfg.get(mfg.id)
         assertNotNull mfg.id
         assertNotNull mfg.manufacturer
+        assertNotNull mfg.lastUpdated
+        assertNotNull mfg.dateCreated
     }
 }

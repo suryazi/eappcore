@@ -1,0 +1,10 @@
+Testsuite: com.blagha.JWSCLocTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.513 sec
+------------- Standard Output ---------------
+--Output from testLocSave--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testLocSave--
+------------- ---------------- ---------------
+
+Testcase: testLocSave took 0.34 sec

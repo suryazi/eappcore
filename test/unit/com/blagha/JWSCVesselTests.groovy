@@ -15,8 +15,9 @@ class JWSCVesselTests {
 
     void testSave() {
         JWSCVessel ves = JWSCVessel.build()
-        def foundves=JWSCVessel.get(ves.id)
         assertNotNull ves.id
         assertNotNull ves.vessel
+        assertNotNull ves.lastUpdated
+        assertNotNull ves.dateCreated
     }
 }

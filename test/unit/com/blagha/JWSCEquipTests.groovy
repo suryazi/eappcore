@@ -16,7 +16,6 @@ class JWSCEquipTests {
 
     void testEquipSave() {
         JWSCEquip eqp = JWSCEquip.build()
-        def foundEqp=JWSCEquip.get(eqp.id)
         assertNotNull eqp.id
         assertNotNull eqp.equipment
         assertNotNull eqp.lastUpdated
