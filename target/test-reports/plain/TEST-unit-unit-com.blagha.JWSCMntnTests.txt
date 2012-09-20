@@ -1,10 +1,10 @@
 Testsuite: com.blagha.JWSCMntnTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.315 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 1.869 sec
 ------------- Standard Output ---------------
---Output from testSomething--
+--Output from testMntnSave--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
---Output from testSomething--
+--Output from testMntnSave--
 ------------- ---------------- ---------------
 
-Testcase: testSomething took 0.312 sec
+Testcase: testMntnSave took 1.838 sec
