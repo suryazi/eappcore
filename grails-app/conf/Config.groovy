@@ -1,10 +1,5 @@
 // configuration for plugin testing - will not be included in the plugin zip
 
-codenarc {
- reportName = 'target/test-reports/CodeNarcReport.xml'
- reportType = 'xml'
- // any further settings like maxPriority1Violations=0
-}
 
 log4j = {
     // Example of changing the log pattern for the default console

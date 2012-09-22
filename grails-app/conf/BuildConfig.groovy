@@ -32,6 +32,20 @@ grails.project.dependency.resolution = {
 
         // runtime 'mysql:mysql-connector-java:5.1.18'
     }
+    
+    codenarc.reports = {    // Each report definition is of the form:
+    //    REPORT-NAME(REPORT-TYPE) {
+    //        PROPERTY-NAME = PROPERTY-VALUE
+    //        PROPERTY-NAME = PROPERTY-VALUE
+    //    }    MyXmlReport('xml') {                    // The report name "MyXmlReport" is user-defined; Report type is 'xml'
+        outputFile = 'CodeNarc-Report.xml'  // Set the 'outputFile' property of the (XML) Report
+        title = 'Sample Report'             // Set the 'title' property of the (XML) Report
+    }
+    MyHtmlReport('html') {                  // Report type is 'html'
+        outputFile = 'CodeNarc-Report.html'
+        title = 'Sample Report'
+    }
+}
 
     plugins {
         build(":tomcat:$grailsVersion",
