@@ -33,21 +33,6 @@ grails.project.dependency.resolution = {
         // runtime 'mysql:mysql-connector-java:5.1.18'
     }
     
-    codenarc.reports = {    // Each report definition is of the form:
-    //    REPORT-NAME(REPORT-TYPE) {
-    //        PROPERTY-NAME = PROPERTY-VALUE
-    //        PROPERTY-NAME = PROPERTY-VALUE
-    //    }    
-    MyXmlReport('xml') {                    // The report name "MyXmlReport" is user-defined; Report type is 'xml'
-        outputFile = 'CodeNarc-Report.xml'  // Set the 'outputFile' property of the (XML) Report
-        title = 'Sample Report'             // Set the 'title' property of the (XML) Report
-    }
-    MyHtmlReport('html') {                  // Report type is 'html'
-        outputFile = 'CodeNarc-Report.html'
-        title = 'Sample Report'
-    }
-}
-
     plugins {
         build(":tomcat:$grailsVersion",
               ":release:2.0.4",
@@ -58,5 +43,21 @@ grails.project.dependency.resolution = {
         compile ":codenarc:0.17"
         test ":auto-test:1.0.1"
         compile ":build-test-data:2.0.3"
+    }
+}
+
+codenarc.reports = {    // Each report definition is of the form:
+    //    REPORT-NAME(REPORT-TYPE) {
+    //        PROPERTY-NAME = PROPERTY-VALUE
+    //        PROPERTY-NAME = PROPERTY-VALUE
+    //    }    
+    MyXmlReport('xml') {                    // The report name "MyXmlReport" is user-defined; Report type is 'xml'
+        //outputFile = 'CodeNarc-Report.xml'  // Set the 'outputFile' property of the (XML) Report
+        outputFile = 'target/test-reports/CodeNarcReport.xml'  // Set the 'outputFile' property of the (XML) Report
+        title = 'Sample Report'             // Set the 'title' property of the (XML) Report
+    }
+    MyHtmlReport('html') {                  // Report type is 'html'
+        outputFile = 'CodeNarc-Report.html'
+        title = 'Sample Report'
     }
 }
