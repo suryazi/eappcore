@@ -41,6 +41,7 @@ grails.project.dependency.resolution = {
         }
         runtime ":hibernate:$grailsVersion"
         compile ":codenarc:0.17"
+        compile ":functional-test:2.0.M2"
         test ":auto-test:1.0.1"
         test ":code-coverage:1.2.5"
         compile ":build-test-data:2.0.3"

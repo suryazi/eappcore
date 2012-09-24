@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="falblawi" name="com.blagha.HelloWorldFunctionalTests" tests="1" time="0.002" timestamp="2012-09-24T12:12:38">
+  <properties />
+  <testcase classname="com.blagha.HelloWorldFunctionalTests" name="testSomeWebsiteFeature" time="0.001" />
+  <system-out><![CDATA[--Output from testSomeWebsiteFeature--
+
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomeWebsiteFeature--
+]]></system-err>
+</testsuite>

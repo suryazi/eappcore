@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="falblawi" id="0" name="JWSCSparesTests" package="com.blagha" tests="1" time="2.582" timestamp="2012-09-20T11:39:08">
+  <testsuite errors="0" failures="0" hostname="falblawi" id="0" name="HelloWorldFunctionalTests" package="com.blagha" tests="1" time="0.002" timestamp="2012-09-24T12:12:38">
       <properties />
 
-      <testcase classname="com.blagha.JWSCSparesTests" name="testSparesSave" time="2.579" />
+      <testcase classname="com.blagha.HelloWorldFunctionalTests" name="testSomeWebsiteFeature" time="0.001" />
 
-      <system-out><![CDATA[--Output from testSparesSave--
+      <system-out><![CDATA[--Output from testSomeWebsiteFeature--
+
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testSparesSave--
+      <system-err><![CDATA[--Output from testSomeWebsiteFeature--
 ]]></system-err>
 
   </testsuite>

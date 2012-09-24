@@ -1,0 +1,11 @@
+Testsuite: com.blagha.HelloWorldFunctionalTests
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.002 sec
+------------- Standard Output ---------------
+--Output from testSomeWebsiteFeature--
+
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testSomeWebsiteFeature--
+------------- ---------------- ---------------
+
+Testcase: testSomeWebsiteFeature took 0.001 sec
